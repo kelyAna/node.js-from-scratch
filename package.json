@@ -18,5 +18,8 @@
   "license": "ISC",
   "devDependencies": {
     "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "fastify": "^4.23.2"
   }
 }

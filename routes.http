@@ -11,6 +11,9 @@ GET http://localhost:3333/videos
 
 
 ### 
+GET http://localhost:3333/videos?search
+
+### 
 PUT http://localhost:3333/videos/:id
 {
   "title": "Video 01",

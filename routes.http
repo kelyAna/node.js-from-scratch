@@ -1,0 +1,22 @@
+POST http://localhost:3333/videos
+
+{
+  "title": "Video 01",
+  "description": "Video react do Casimiro",
+  "duration": 180 
+}
+
+### 
+GET http://localhost:3333/videos
+
+
+### 
+PUT http://localhost:3333/videos/:id
+{
+  "title": "Video 01",
+  "description": "Video react do Casimiro",
+  "duration": 180 
+}
+
+### 
+DELETE http://localhost:3333/videos/:id
